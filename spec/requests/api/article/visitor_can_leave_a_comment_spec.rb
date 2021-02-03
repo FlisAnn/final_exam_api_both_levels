@@ -1,8 +1,8 @@
-RSpec.describe 'POST api/posts', type: :request do
+RSpec.describe 'POST api/comments', type: :request do
  
   describe 'successfully leave a comment' do
     before do
-      post "/api/comment",
+      post "/api/comments",
       params: {
         comment: {
           content: "Cool cat",
