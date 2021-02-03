@@ -5,7 +5,7 @@ RSpec.describe 'POST api/comments', type: :request do
       post "/api/comments",
       params: {
         comment: {
-          content: "Cool cat",
+          content: "Cool cat!",
         }
       }
     end
